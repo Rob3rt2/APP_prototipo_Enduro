@@ -18,3 +18,4 @@ Listaras ideias do prototipo de  aplicativo para o Jogo Enduro, de 1983
 - Icon: https://api.flutter.dev/flutter/widgets/Icon-class.html
 - Image: https://api.flutter.dev/flutter/widgets/Image-class.html
 - Column: https://api.flutter.dev/flutter/widgets/Column-class.html
+- Video: https://docs.flutter.dev/cookbook/plugins/play-video
