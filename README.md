@@ -6,7 +6,7 @@ Listaras ideias do prototipo de  aplicativo para o Jogo Enduro, de 1983}
 
 # Widgets
 
-- ButtomNavigationBar: https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html
+- BottomNavigationBar: https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html
 - Text: https://docs.flutter.dev/ui/widgets/text
 - Icon: https://api.flutter.dev/flutter/widgets/Icon-class.html
 - Image: https://api.flutter.dev/flutter/widgets/Image-class.html
