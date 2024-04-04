@@ -19,7 +19,12 @@ Wiki para Nome do projeto
 
 ## Imagens Prototipo
 ### Wiki para imagens do planejamento do prototipo
-  - https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Imagens-do-Prototipo
+- https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Imagens-do-Prototipo
+
+## Descrição das Funcionalidades
+
+- https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Descrição-de-suas-funcionalidade
+  
 ## Widgets usados e onde foram aplicados
 
 - BottomNavigationBar: https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html Mudar o Link para a Wiki
