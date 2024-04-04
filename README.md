@@ -23,7 +23,7 @@ Wiki para Nome do projeto
 
 ## Descrição das Funcionalidades
 
-- https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Descrição-de-suas-funcionalidade
+- https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Descrição-de-suas-funcionalidades
   
 ## Widgets usados e onde foram aplicados
 
