@@ -6,7 +6,8 @@ Wiki para Nome do projeto
 ![image](https://github.com/Rob3rt2/APP_prototipo_Enduro/assets/127865166/6724de15-637d-4b60-bb82-c949a33d55e6)
 # Integrantes
 ### Wiki para Integrantes envolvidos no projeto
-- https://github.com/Rob3rt2/APP_prototipo_Enduro.wiki.git
+- https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki
+  
   
 ## Descrição
 
