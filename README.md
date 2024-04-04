@@ -12,7 +12,7 @@ Wiki para Nome do projeto
 
 ### Wiki para Descrição do projeto
 
--https://github.com/Rob3rt2/APP_prototipo_Enduro.wiki.git
+- https://github.com/Rob3rt2/APP_prototipo_Enduro.wiki.git
 
 #  Lista de Wikis
 
