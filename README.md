@@ -1,5 +1,5 @@
 # https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki
-# Nome do Projeto
+# Aplicativo Enduro
 Wiki para Nome do projeto
 - https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Nome-do-Projeto
 
