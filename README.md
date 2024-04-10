@@ -26,9 +26,9 @@ Wiki para Nome do projeto
 - https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Descrição-de-suas-funcionalidades
   
 ## Widgets usados e onde foram aplicados
-- floattingActionButton: https://api.flutter.dev/flutter/material/Scaffold-class.html Mudar para Link da Wiki
+- floattingActionButton: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-FloattingActionButton
 - Appbar: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-AppBar
-- BottomNavigationBar: https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html Mudar o Link para a Wiki
+- BottomNavigationBar: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-BottomNavigationBar
 - Text: https://docs.flutter.dev/ui/widgets/text Mudar o Link para a Wiki
 - Icon: https://api.flutter.dev/flutter/widgets/Icon-class.html Mudar o Link para a Wiki
 - Image: https://api.flutter.dev/flutter/widgets/Image-class.html Mudar o Link para a Wiki
