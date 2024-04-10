@@ -29,8 +29,8 @@ Wiki para Nome do projeto
 - floattingActionButton: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-FloattingActionButton
 - Appbar: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-AppBar
 - BottomNavigationBar: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-BottomNavigationBar
-- Text: https://docs.flutter.dev/ui/widgets/text Mudar o Link para a Wiki
-- Icon: https://api.flutter.dev/flutter/widgets/Icon-class.html Mudar o Link para a Wiki
-- Image: https://api.flutter.dev/flutter/widgets/Image-class.html Mudar o Link para a Wiki
-- Column: https://api.flutter.dev/flutter/widgets/Column-class.html Mudar o Link para a Wiki
+- Text: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-Text
+- Icon: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-Icon
+- Image: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Wdget:-Image
+- Column: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-Column
 - Video: https://docs.flutter.dev/cookbook/plugins/play-video Mudar o Link para a Wiki
