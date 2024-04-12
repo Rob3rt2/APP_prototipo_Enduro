@@ -27,10 +27,10 @@
   
 ## Widgets usados e onde foram aplicados
 - <a href="https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-FloattingActionButton">floattingActionButton<a>
-- Appbar: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-AppBar
-- BottomNavigationBar: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-BottomNavigationBar
-- Text: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-Text
-- Icon: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-Icon
-- Image: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Wdget:-Image
-- Column: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-Column
-- Video: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-Video
+- <a href="https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-AppBar">Appbar<a>
+- <a href=" https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-BottomNavigationBar">BottomNavigationBar<a>
+- <a href=" https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-Text">Text<a>
+- <a href="https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-Icon"> Icon<a>
+-  <a href="https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Wdget:-Image">Image<a>
+- <a href=" https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-Column">Column<a>
+-  <a href="https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-Video">Video<a>
