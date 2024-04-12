@@ -33,4 +33,4 @@ Wiki para Nome do projeto
 - Icon: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-Icon
 - Image: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Wdget:-Image
 - Column: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-Column
-- Video: https://docs.flutter.dev/cookbook/plugins/play-video Mudar o Link para a Wiki
+- Video: https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-Video
