@@ -1,7 +1,7 @@
 # <a href="https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki">Aplicativo jogo Enduro<a>
 
 
-- <a href="https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Nome-do-Projeto">Projeto Aplicativo informativo Enduro<a>
+- <a href="https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Projeto-Aplicativo-informativo-Enduro">Projeto Aplicativo informativo Enduro<a>
 
 ![image](https://github.com/Rob3rt2/APP_prototipo_Enduro/assets/127865166/6724de15-637d-4b60-bb82-c949a33d55e6)
 # Integrantes
