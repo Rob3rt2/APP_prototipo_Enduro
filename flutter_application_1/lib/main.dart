@@ -1,5 +1,8 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:flutter/widgets.dart';
 
 void main() {
   runApp(const MainApp());
@@ -12,6 +15,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: AppEnduro (),
+      
     );
   }
 }
@@ -22,7 +26,9 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Enduro 1983'),
+        title: const Text(
+         
+          'Enduro 1983'),
          leading:
        
         IconButton(
@@ -36,8 +42,17 @@ class MainApp extends StatelessWidget {
       
       
       )
-    );
-  }
-  }
+      body: const Center(
+        child: Column( 
         
+          children: <Widget>[
+
+        ]
+        )
        
+      )
+    );
+  
+  }     
+  }
+  
