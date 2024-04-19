@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 void main() {
   runApp(const MainApp());
@@ -21,10 +22,21 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-
+        title: const Text('Enduro 1983'),
+         leading:
+       
+        IconButton(
+          icon: const Icon(Icons.ac_unit_rounded),
+          tooltip: 'Enduro',
+          onPressed:(){
+             ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(content: Text('LM83')));
+          }
+          ),
+      
       
       )
-    )
+    );
   }
   }
         
