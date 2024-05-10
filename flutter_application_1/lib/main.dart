@@ -1,6 +1,8 @@
-import 'dart:html';
+
+import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 
@@ -10,47 +12,49 @@ void main() {
 
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
+  
+  
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: AppEnduro (),
-      
-    );
-  }
-}
-  class AppEnduro extends StatelessWidget{
-    const AppEnduro({super.key});
-
-  @override
-  Widget build(BuildContext context){
-    return Scaffold(
+    return  MaterialApp(
+      home: Scaffold (
       appBar: AppBar(
-        title: const Text(
-         
-          'Enduro 1983'),
-         leading:
-       
-        IconButton(
-          icon: const Icon(Icons.ac_unit_rounded),
-          tooltip: 'Enduro',
-          onPressed:(){
-             ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(content: Text('LM83')));
-          }
-          ),
+title: const Text('Enduro',
+style: TextStyle(color:Color.fromRGBO(255, 255, 255, 1), )
+
+),
+centerTitle: true,
+
+
+backgroundColor: const Color.fromARGB(255, 3, 0, 177),
+
+leading:
+
+
+
+const Icon(Icons.sports_motorsports_rounded,
+color: Color.fromARGB(255, 226, 204, 0))
+
+
+),
       
       
-      )
+    
+
+
+    
       body: const Center(
         child: Column( 
-        
+      
           children: <Widget>[
-
+Image(image: NetworkImage(''))
+  
         ]
         )
        
       )
+    )
     );
   
   }     
