@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MainApp());
 }
- 
+
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
   @override
@@ -18,26 +18,27 @@ class MainApp extends StatelessWidget {
         backgroundColor: const Color.fromARGB(255, 3, 0, 177),
         leading:
         const Icon(Icons.sports_motorsports_rounded,
-        color: Color.fromARGB(255, 226, 204, 0))
+        color: Color.fromARGB(255, 226, 204, 0)),
+        actions: const Icon(Icons.sports_esports,),
         ), //fim do appbar 
 
       body: Center(
         child: Column( 
           children: 
           <Widget>[
-            Image.asset('img/logo.jpg',width: 220,height: 220,),
-            Image.asset('img/end.jpg', width: 920, height: 530),
+            Image.asset('img/logo2.jpg',width: 220,height: 220,),
+            Image.asset('img/end.jpg', width: 650, height: 280),
             Container(
-              width: 330,
+              width: 380,
               decoration: const BoxDecoration(borderRadius:BorderRadius.vertical()),
-              child: const Text( 'lllllllllllllllllllllll',
+              child: const Text('Enduro é um jogo de corrida desenvolvido pela Activision edistribuido para Atari 2600.',
               style: TextStyle(fontFamily:AutofillHints.photo)
         ),
        ), //fim do container
-        ]
-        ) 
+        ] 
+      ),
+        ) //fim do child
       ) //fim do body
-    )
     );
   }     
   }
