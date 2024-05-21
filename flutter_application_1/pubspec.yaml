@@ -16,6 +16,12 @@ dev_dependencies:
   flutter_lints: ^3.0.0
 
 flutter:
+  fonts:
+    - family: PixelifySans
+      fonts:
+        - asset: font/Pixelify_Sans/static/PixelifySans-Regular.ttf
+        - asset: font/Pixelify_Sans/static/PixelifySans-Bold.ttf
+          weight: 700
   uses-material-design: true
   assets:
     - img/

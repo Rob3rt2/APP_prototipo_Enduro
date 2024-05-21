@@ -1,4 +1,3 @@
-import 'package:flutter_application_1/main.dart';
 import 'package:flutter/material.dart';
 
 void gameplaypag() {
@@ -16,7 +15,7 @@ class GameplayPag extends StatelessWidget {
         style: TextStyle(color:Color.fromRGBO(255, 255, 255, 1),)
         ),
         centerTitle: true,
-        backgroundColor:const Color.fromARGB(255, 3, 0, 177),
+        backgroundColor:const Color.fromARGB(255, 75, 73, 206),
       ),
       body: Center(child: Column(children:
       [const Text("Gameplay"),
