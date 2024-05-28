@@ -9,6 +9,7 @@ void main() {
 
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return  MaterialApp(
@@ -36,6 +37,18 @@ class MainApp extends StatelessWidget {
             color: const Color.fromARGB(255, 226, 204, 0),)
         ]
         ), //fim do appbar 
+        bottomNavigationBar: BottomNavigationBar(items: const <BottomNavigationBarItem>[
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: 'Home',
+            ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.sports_esports),
+            label: 'Jogo'),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.ondemand_video),
+            label: 'Gameplay'),
+        ],),
 
       body: Center(
         child: Column( 
@@ -51,9 +64,9 @@ class MainApp extends StatelessWidget {
         ),
        ), //fim do container
         ] 
-      ),
-        ) //fim do child
-      ) //fim do body
+      ), //fim da child
+        ) //fim do body
+      )
     );
   }     
   }

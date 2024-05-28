@@ -25,7 +25,7 @@ class GamePag extends StatelessWidget {
           Image.asset('img/endurodia.jpg', width: 320, height: 210,),
           const SizedBox (
             width: 380,
-            child: const Text('Enduro é um jogo feito em 8-Bit, pois era o que o console conseguia suportar.', 
+            child: Text('Enduro é um jogo feito em 8-Bit, pois era o que o console conseguia suportar.', 
             style: TextStyle(fontFamily: 'PixelifySans', fontSize: 15,)),
             )
           ]
