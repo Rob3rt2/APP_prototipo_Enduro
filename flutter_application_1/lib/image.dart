@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/game.dart';
-import 'package:flutter_application_1/image.dart';
+import 'package:flutter_application_1/gameplay.dart';
 
-void gameplaypag() {
-  runApp(const GameplayPag());
+void imagepag() {
+  runApp(const ImagePag());
 }
 
-class GameplayPag extends StatelessWidget {
-  const GameplayPag({super.key});
+class ImagePag extends StatelessWidget {
+  const ImagePag({super.key});
 
 @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Gameplay',
+        title: const Text('Imagens',
         style: TextStyle(fontFamily: 'PixelifySans', fontWeight: FontWeight.w700, color:Color.fromRGBO(255, 255, 255, 1),)
         ),
         centerTitle: true,
@@ -26,15 +26,15 @@ class GameplayPag extends StatelessWidget {
             color: const Color.fromARGB(255, 226, 204, 0),),
           IconButton(onPressed: (){Navigator.push(context,
             MaterialPageRoute(builder:
-            (context) => const ImagePag()),);},
-            icon: const Icon(Icons.image_outlined,),
-            color: const Color.fromARGB(255, 226, 204, 0),),
+            (context) => const GameplayPag()),);},
+            icon: const Icon(Icons.ondemand_video,),
+            color: const Color.fromARGB(255, 226, 204, 0),)
         ]
       ),
       body: Center(
-        child: Column (
+        child: Column(
           children: [
-            Image.asset('img/end.jpg',width: 220,height: 220,),
+            Image.asset('img/end.png',width: 220,height: 220,),
           ]
         )
       )

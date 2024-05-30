@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/game.dart';
 import 'package:flutter_application_1/gameplay.dart';
+import 'package:flutter_application_1/image.dart';
 
 void main() {
   runApp(const MaterialApp (title: "App",
@@ -15,8 +16,8 @@ class MainApp extends StatelessWidget {
     return  MaterialApp(
       home: Scaffold (
       appBar: AppBar(
-        title: const Text('Enduro',
-        style: TextStyle(color:Color.fromRGBO(255, 255, 255, 1),)
+        title: const Text('Home',
+        style: TextStyle(fontFamily: 'PixelifySans', fontWeight: FontWeight.w700, color: const Color.fromRGBO(255, 255, 255, 1),)
         ),
         centerTitle: true,
         backgroundColor: const Color.fromARGB(255, 75, 73, 206),
@@ -34,10 +35,19 @@ class MainApp extends StatelessWidget {
             MaterialPageRoute(builder:
             (context) => const GameplayPag()),);}, 
             icon: const Icon (Icons.ondemand_video,), 
-            color: const Color.fromARGB(255, 226, 204, 0),)
+            color: const Color.fromARGB(255, 226, 204, 0),),
+            IconButton(onPressed: (){
+            Navigator.push(context,
+            MaterialPageRoute(builder:
+            (context) => const ImagePag()),);}, 
+            icon: const Icon (Icons.image_outlined,), 
+            color: const Color.fromARGB(255, 226, 204, 0),),
         ]
         ), //fim do appbar 
-        bottomNavigationBar: BottomNavigationBar(items: const <BottomNavigationBarItem>[
+        bottomNavigationBar: BottomNavigationBar(
+          type: BottomNavigationBarType.fixed, //permite que tenha 4 ou + itens na BottomNavigationBar
+          currentIndex: 0,
+          items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Home',
@@ -45,6 +55,9 @@ class MainApp extends StatelessWidget {
           BottomNavigationBarItem(
             icon: Icon(Icons.sports_esports),
             label: 'Jogo'),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.image_outlined),
+            label: 'Imagens'),
           BottomNavigationBarItem(
             icon: Icon(Icons.ondemand_video),
             label: 'Gameplay'),
@@ -69,5 +82,4 @@ class MainApp extends StatelessWidget {
       )
     );
   }     
-  }
-  
+}
