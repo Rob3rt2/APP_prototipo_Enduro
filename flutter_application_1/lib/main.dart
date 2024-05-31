@@ -17,7 +17,7 @@ class MainApp extends StatelessWidget {
       home: Scaffold (
       appBar: AppBar(
         title: const Text('Home',
-        style: TextStyle(fontFamily: 'PixelifySans', fontWeight: FontWeight.w700, color: const Color.fromRGBO(255, 255, 255, 1),)
+        style: TextStyle(fontFamily: 'PixelifySans', fontWeight: FontWeight.w700, color: Color.fromRGBO(255, 255, 255, 1),)
         ),
         centerTitle: true,
         backgroundColor: const Color.fromARGB(255, 75, 73, 206),
@@ -43,25 +43,7 @@ class MainApp extends StatelessWidget {
             icon: const Icon (Icons.image_outlined,), 
             color: const Color.fromARGB(255, 226, 204, 0),),
         ]
-        ), //fim do appbar 
-        bottomNavigationBar: BottomNavigationBar(
-          type: BottomNavigationBarType.fixed, //permite que tenha 4 ou + itens na BottomNavigationBar
-          currentIndex: 0,
-          items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Home',
-            ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.sports_esports),
-            label: 'Jogo'),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.image_outlined),
-            label: 'Imagens'),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.ondemand_video),
-            label: 'Gameplay'),
-        ],),
+        ), //fim do appbar
 
       body: Center(
         child: Column( 

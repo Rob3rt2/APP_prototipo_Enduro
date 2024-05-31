@@ -34,7 +34,12 @@ class ImagePag extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Image.asset('img/end.png',width: 220,height: 220,),
+            const Text('Neve.', style: TextStyle(fontFamily: 'PixelifySans', fontWeight: FontWeight.w700),),
+            Image.asset('img/enduroneve.jpg', width: 270, height: 180,), //neve
+            const Text('Escurecer.', style: TextStyle(fontFamily: 'PixelifySans', fontWeight: FontWeight.w700),),
+            Image.asset('img/end.png', width: 240, height: 150,), //escurecendo
+            const Text('Noie com neblina.', style: TextStyle(fontFamily: 'PixelifySans', fontWeight: FontWeight.w700),),
+            Image.asset('img/enduronoite.jpg', width: 240, height: 150,), //noite com neblina
           ]
         )
       )
