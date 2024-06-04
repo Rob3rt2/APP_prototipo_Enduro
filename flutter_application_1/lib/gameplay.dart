@@ -28,7 +28,7 @@ void initState(){
 
       });
     });
-}
+} //define o estado do vídeo
 
 @override
   Widget build(BuildContext context) {
@@ -58,10 +58,10 @@ void initState(){
           children: [
             AspectRatio(
               aspectRatio: _videoPlayerController.value.aspectRatio,
-              child: VideoPlayer(_videoPlayerController)),
+              child: VideoPlayer(_videoPlayerController)), //define o tamanho do vídeo, sendo o su tamanho original
 
               Row(
-                mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.center, //define o alinhamento do vídeo
                 children: [
                   ElevatedButton(
                     onPressed: (){

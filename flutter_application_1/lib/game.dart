@@ -55,6 +55,11 @@ class GamePag extends StatelessWidget {
             child: Text('E no período noturno, a tela fica toda preta, dando destaque para o carro do jogador, e é possível ver apenas os faróis traseiros dos carros adversários, e tem o evento de neblina, onde a tela fica acinzentada e o campo de visão diminiui.  (Veja a imagem "Noite e neblina" na parte de imagens)',
             style: TextStyle(fontFamily: 'PixelifySans', fontSize: 12,),),
           ),
+          const SizedBox(
+            width: 380,
+            child: Text('Para um melhor entendimento de como o jogo é, assista a gameplay na página de Gameplay.',
+            style: TextStyle(fontFamily: 'PixelifySans', fontSize: 12,),),
+          ),
           ]
         )
       )
