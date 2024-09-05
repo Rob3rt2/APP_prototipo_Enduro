@@ -16,8 +16,4 @@ class JogoSimilar{
     this.modo,
     this.genero
   );
-
-  void avancarJogoSim(){
-    
-  }
 }
