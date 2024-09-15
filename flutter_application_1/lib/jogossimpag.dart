@@ -32,25 +32,38 @@ class _JogosSimpag extends State<JogosSimPag> {
     ),
   ];
 
-  void avancarJogoSim(){
-    index++;
+  avancarJogoSim(){
+    index = index+1;
   }
 
-  void voltarJogoSim(){
-    index--;
+  voltarJogoSim(){
+    index = index-1;
   }
 
   @override
   Widget build(BuildContext context) {
   return Scaffold(
     body: Center(
-      child: (
+      child: Column ( children: [
+        Text(jogossimilares[index].titulo),
+        Image.asset(jogossimilares[index].img),
+        Text(jogossimilares[index].descricao),
+        Text(jogossimilares[index].desenvolvedora),
+        Text(jogossimilares[index].console),
+        Text(jogossimilares[index].genero),
+        Text(jogossimilares[index].modo),
         ElevatedButton(
           onPressed: (){
             avancarJogoSim();
           },
-          child: const Text('Avançar'))
-    ),)
-    );
+          child: const Icon(Icons.arrow_forward_ios, color: Color.fromARGB(255, 75, 73, 206))),
+          ElevatedButton(
+          onPressed: (){
+            voltarJogoSim();
+          },
+          child: const Icon(Icons.arrow_back_ios, color: Color.fromARGB(255, 75, 73, 206))),
+      ]),
+    )
+  );
   }
 }
