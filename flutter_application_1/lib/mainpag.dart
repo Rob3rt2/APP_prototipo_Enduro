@@ -25,7 +25,7 @@ class _MyApp extends State<MyApp> {
     return  MaterialApp(
       home: Scaffold (
       appBar: AppBar(
-        title: const Text('Home',
+        title: const Text('Enduro',
         style: TextStyle(fontFamily: 'PixelifySans', fontWeight: FontWeight.w700, color: Color.fromRGBO(255, 255, 255, 1),)
         ),
         centerTitle: true,

@@ -9,6 +9,7 @@ class JogosSimPag extends StatefulWidget{
 }
 
 class _JogosSimpag extends State<JogosSimPag> {
+
   int index = 0;
 
   List<JogoSimilar> jogossimilares = [
@@ -33,35 +34,48 @@ class _JogosSimpag extends State<JogosSimPag> {
   ];
 
   avancarJogoSim(){
-    index = index+1;
+    setState(() {
+      index = index+1;
+    });
   }
 
   voltarJogoSim(){
-    index = index-1;
+    setState(() {
+      index = index-1;
+    });
   }
 
   @override
   Widget build(BuildContext context) {
   return Scaffold(
     body: Center(
-      child: Column ( children: [
-        Text(jogossimilares[index].titulo),
-        Image.asset(jogossimilares[index].img),
-        Text(jogossimilares[index].descricao),
-        Text(jogossimilares[index].desenvolvedora),
-        Text(jogossimilares[index].console),
-        Text(jogossimilares[index].genero),
-        Text(jogossimilares[index].modo),
-        ElevatedButton(
-          onPressed: (){
-            avancarJogoSim();
-          },
-          child: const Icon(Icons.arrow_forward_ios, color: Color.fromARGB(255, 75, 73, 206))),
-          ElevatedButton(
-          onPressed: (){
-            voltarJogoSim();
-          },
-          child: const Icon(Icons.arrow_back_ios, color: Color.fromARGB(255, 75, 73, 206))),
+      child: Column (
+        children: [
+          Text(jogossimilares[index].titulo, style: const TextStyle(fontFamily: "PixelifySans", fontWeight: FontWeight.w700, fontSize: 20),),
+          Image.asset(jogossimilares[index].img, height: 187, width: 270,),
+          Text(jogossimilares[index].descricao, style: const TextStyle(fontFamily: "PixelifySans", fontSize: 15),),
+          Text(jogossimilares[index].desenvolvedora, style: const TextStyle(fontFamily: "PixelifySans", fontSize: 15),),
+          Text(jogossimilares[index].console, style: const TextStyle(fontFamily: "PixelifySans", fontSize: 15),),
+          Text(jogossimilares[index].genero, style: const TextStyle(fontFamily: "PixelifySans", fontSize: 15),),
+          Text(jogossimilares[index].modo, style: const TextStyle(fontFamily: "PixelifySans", fontSize: 15),),
+          Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  ElevatedButton(
+                    onPressed: (){
+                      voltarJogoSim();
+                    },
+                    child: const Icon(Icons.arrow_back_ios, color: Color.fromARGB(255, 75, 73, 206))
+                  ),
+                  ElevatedButton(
+                    onPressed: (){
+                      avancarJogoSim();
+                    },
+                    child: const Icon(Icons.arrow_forward_ios, color: Color.fromARGB(255, 75, 73, 206))
+                  ),
+                  const Padding(padding: EdgeInsets.all(2),),
+                  ],
+              ),
       ]),
     )
   );
