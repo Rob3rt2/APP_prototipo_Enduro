@@ -36,4 +36,7 @@
 - <a href="https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Widget:-Video">Video<a>
 
 ## Desenvolvimento do protótipo
-- <a href="https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Desenvolvimento-do-Prot%C3%B3tipo"> Desenvolvimento </a>
+- <a href="https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Desenvolvimento-do-Prot%C3%B3tipo"> Desenvolvimento do protótipo </a>
+
+## Desenvolvimento das classes
+- <a href="https://github.com/Rob3rt2/APP_prototipo_Enduro/wiki/Desenvolvimento-das-Classes"> Desenvolvimento das classes </a>
