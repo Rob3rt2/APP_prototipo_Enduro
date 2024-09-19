@@ -26,13 +26,15 @@ class HomePag extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            const Text("Enduro" , style: TextStyle(fontFamily: 'PixelifySans', fontWeight: FontWeight.w700),),
+            const Text('Enduro', style: TextStyle(fontFamily: 'PixelifySans', fontSize: 20, fontWeight: FontWeight.w700),),
 
             Image.asset(info.img , width: 270, height: 180,), //neve
 
-            Text(info.desenvolvedora , style: const TextStyle(fontFamily: 'PixelifySans', fontWeight: FontWeight.w700),),
+            Text(info.descricao, style: const TextStyle(fontFamily: 'PixelifySans', ),),
 
-            Text(info.console , style: const TextStyle(fontFamily: 'PixelifySans', fontWeight: FontWeight.w700),),
+            Text(info.desenvolvedora , style: const TextStyle(fontFamily: 'PixelifySans',),),
+
+            Text(info.console , style: const TextStyle(fontFamily: 'PixelifySans',),),
           ]
         )
       )
