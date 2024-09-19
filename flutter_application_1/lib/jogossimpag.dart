@@ -25,7 +25,7 @@ class _JogosSimpag extends State<JogosSimPag> {
     const JogoSimilar(
       'Excitebike',
       'img/excitebike.png',
-      'jogo de motocrossing',
+      'Jogo de motocrossing',
       'desenvolvedora',
       'Nintendo Entertainment System (NES), Wii e Wii U',
       'Um jogador',

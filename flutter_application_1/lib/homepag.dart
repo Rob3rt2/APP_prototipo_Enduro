@@ -1,27 +1,41 @@
 import 'package:flutter/material.dart';
 
-class HomePag extends StatelessWidget{
-  const HomePag ({super.key,});
+class Enduro{
+  final String img;
+  final String descricao;
+  final String desenvolvedora;
+  final String console;
 
-  @override
-  Widget build(BuildContext context){
-  return Scaffold(
-    body: Center(
-        child: Column( 
-          children: 
-          <Widget>[
-            Image.asset('img/logo.jpg',width: 150,height: 150,),
-            Image.asset('img/end.jpg', width: 670, height: 200),
-            Container(
-              width: 380,
-              decoration: const BoxDecoration(borderRadius:BorderRadius.vertical()),
-              child: const Text('Enduro é um jogo de corrida desenvolvido pela Activision e distribuido para Atari 2600 em 1983. Ele retrata uma corrida de resistência que dura 24 horas onde o piloto (jogador) tem o objetivo de ultrapassar diversos carros, superando obstáculos do clima e do dia e noite.',
-              style: TextStyle(fontFamily: 'PixelifySans', fontSize: 15,),
-        ),
-       ), //fim do container
-        ] 
-      ), //fim da child
-        ) //fim do body
-  );
+  const Enduro(
+    this.img,
+    this.descricao,
+    this.desenvolvedora,
+    this.console
+  ); 
+}
+
+class HomePag extends StatelessWidget {
+  const HomePag({super.key});
+
+ final Enduro info = const Enduro('img/end.jpg', 'Enduro é um jogo de 1983, O objetivo da corrida é ultrapassar uma certa quantidade de carros a cada dia, para permitir ao jogador continuar correndo no dia seguinte. O jogador deve desviar de outros pilotos, ultrapassando 200 carros no primeiro dia, e 300 carros nos dias posteriores.', 'Activision', 'Atari 2600');
+
+
+@override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: Column(
+          children: [
+            Text("Enduro" , style: const TextStyle(fontFamily: 'PixelifySans', fontWeight: FontWeight.w700),),
+
+            Image.asset(info.img , width: 270, height: 180,), //neve
+
+            Text(info.desenvolvedora , style: const TextStyle(fontFamily: 'PixelifySans', fontWeight: FontWeight.w700),),
+
+            Text(info.console , style: const TextStyle(fontFamily: 'PixelifySans', fontWeight: FontWeight.w700),),
+          ]
+        )
+      )
+    );
   }
 }
