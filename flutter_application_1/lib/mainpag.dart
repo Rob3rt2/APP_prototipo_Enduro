@@ -3,7 +3,7 @@ import 'package:flutter_application_1/homepag.dart';
 import 'package:flutter_application_1/gamepag.dart';
 import 'package:flutter_application_1/gameplaypag.dart';
 import 'package:flutter_application_1/eventospag.dart';
-import 'package:flutter_application_1/jogossimpag.dart';
+import 'package:flutter_application_1/JogoSimPag.dart';
 
 void main() {
   runApp(const MaterialApp (title: "App",
@@ -69,7 +69,7 @@ class _MyApp extends State<MyApp> {
           HomePag(),
           GamePag(),
           EventosPag(),
-          JogosSimPag(),
+          JogoSimPag(),
           GameplayPag(),
         ],
       )

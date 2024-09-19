@@ -17,17 +17,17 @@ class GamePag extends StatelessWidget {
           ),
           const SizedBox(
             width: 380,
-            child: Text('Durante o jogo, o player passa por um dia inteiro e isso é representado com a mudança gradual nas cores do céu, que vão ficando em um tom mais alaranjado e mais escuro, simulando o pôr-do-sol.  (Veja a imagem no início desta página e a imagem "Escurecer" na parte de imagens)',
+            child: Text('Durante o jogo, o player passa por um dia inteiro e isso é representado com a mudança gradual nas cores do céu, que vão ficando em um tom mais alaranjado e mais escuro, simulando o pôr-do-sol.',
             style: TextStyle(fontFamily: 'PixelifySans', fontSize: 12,),),
           ),
           const SizedBox(
             width: 380,
-            child: Text('No período da manhã, existe um evento de nevasca, onde a tela fica toda branca e fica mais difícil de ver a pista e o carro do jogador.  (Veja a imagem "Neve" na parte de imagens)',
+            child: Text('No período da manhã, existe um evento de nevasca, onde a tela fica toda branca e fica mais difícil de ver a pista e o carro do jogador.',
             style: TextStyle(fontFamily: 'PixelifySans', fontSize: 12,),),
           ),
           const SizedBox(
             width: 380,
-            child: Text('E no período noturno, a tela fica toda preta, dando destaque para o carro do jogador, e é possível ver apenas os faróis traseiros dos carros adversários, e tem o evento de neblina, onde a tela fica acinzentada e o campo de visão diminiui.  (Veja a imagem "Noite e neblina" na parte de imagens)',
+            child: Text('E no período noturno, a tela fica toda preta, dando destaque para o carro do jogador, e é possível ver apenas os faróis traseiros dos carros adversários, e tem o evento de neblina, onde a tela fica acinzentada e o campo de visão diminiui.',
             style: TextStyle(fontFamily: 'PixelifySans', fontSize: 12,),),
           ),
           const SizedBox(

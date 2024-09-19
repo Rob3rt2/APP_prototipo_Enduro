@@ -26,7 +26,7 @@ class HomePag extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Text("Enduro" , style: const TextStyle(fontFamily: 'PixelifySans', fontWeight: FontWeight.w700),),
+            const Text("Enduro" , style: TextStyle(fontFamily: 'PixelifySans', fontWeight: FontWeight.w700),),
 
             Image.asset(info.img , width: 270, height: 180,), //neve
 
